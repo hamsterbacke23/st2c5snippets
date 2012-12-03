@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$c = Page::getCurrentPage();
+if (\$c->isEditMode()) {
+$0
+}
+    ]]>
+  </content>
+	<tabTrigger>ceditmode</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

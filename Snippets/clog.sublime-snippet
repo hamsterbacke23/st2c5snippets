@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Log::addEntry(__METHOD__ . " > ${0:message}");
+    ]]>
+  </content>
+	<tabTrigger>clog</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

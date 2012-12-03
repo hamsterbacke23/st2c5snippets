@@ -1,0 +1,12 @@
+{
+        "scope": "source.php - variable.other.php",
+
+        "completions":
+        [
+                { "trigger": "page::getBycID(C5 Get Page)", "contents": "Page::getByID(${0:cID});" },
+                { "trigger": "page::getBycID(C5 Get Page)", "contents": "Page::getCurrentPage();" },
+                { "trigger": "getCollectionID(C5 Page ID)", "contents": "\\$page->getCollectionID();" },
+                { "trigger": "getCollectionTypeHandle(C5 Page Type)", "contents": "\\$page->getCollectionTypeHandle();" },
+                { "trigger": "getCollectionName(C5 Page Name)", "contents": "\\$page->getCollectionName();" }
+        ]
+}

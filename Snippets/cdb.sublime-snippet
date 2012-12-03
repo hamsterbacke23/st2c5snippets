@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+\$sql = sprintf(
+        'SELECT * FROM %s ' .
+        'WHERE %s=%d',
+      '${2:tablename}','${3:row}', '${3:value}');
+\$db = Loader::db();
+\$dbResult = \$db->${1:Execute/GetAll/GetOne}(\$sql);
+    ]]>
+  </content>
+	<tabTrigger>cdb</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
